@@ -1,0 +1,25 @@
+/*.root {
+    -fx-background-color: #192026;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}*/
+
+.button {
+    -fx-background-radius: 8;
+    /*-fx-background-color:
+            #BF6E50,
+            #BF6E50,
+            #BF6E50,
+            #BF6E50;*/
+    -fx-background-image: url('Resources/button.png');
+    -fx-background-repeat: stretch;
+    -fx-background-size: 150 50;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-padding: 10px;
+}
+
+.button:hover {
+    -fx-background-image: url('Resources/button_selected.png');
+    -fx-text-fill: white;
+}
